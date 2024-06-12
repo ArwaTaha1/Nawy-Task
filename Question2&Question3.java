@@ -32,8 +32,7 @@ public class test {
 			
 		}
 		return result;
-		
-		}
+	}
 	
 	
 	public static boolean isValid(String s) {
@@ -54,16 +53,9 @@ public class test {
 			if (h.containsValue(tmp)&& h.get(stack.peek())==tmp) {
 				stack.pop();
 			}
-			
-			
+				
 		}
 		return stack.isEmpty();
 	}
 	
-	public static void main(String [] args) {
-		String [] tmp = {"2010/02/20", "19/12/2016", "11-18-2012", "20130720","30-12-2012", "2024/20/11" };
-		System.out.println(transformDateFormat(tmp));
-	}
-	
-
 }
